@@ -9,7 +9,7 @@
     <!-- Página Inicial -->
     <header id="inicio">
         <h1>Saymon Lima Dos Santos</h1>
-        <img src="C:\Users\felip\OneDrive\Área de Trabalho\saymon.jpeg" alt="eu" widht = "300" height = "200"/>
+        <img src="https://cdn-icons-png.flaticon.com/512/4792/4792929.png" alt="Eu" width="150" height="150" />
     </header>
 
     <p>Olá, meu nome é Saymon. Sou analista de Sistemas Jr. Bem-vindo ao meu portfólio!</p>
@@ -29,18 +29,17 @@
             <h1>Sobre Mim</h1>
         </header>
 
-        <p>Sou o Saymon, e trabalho na área tech. Ao longo da minha trajetória, busquei me especializar em lógica de programação, e aos poucos fui aprendendo as principais linguagens, como Python, JavaScript, Java, C++, etc.
-            <header>
-                <h1>formação complementar</h1>
-            </header>
+        <p>Sou o Saymon, e trabalho na área tech. Ao longo da minha trajetória, busquei me especializar em lógica de programação, e aos poucos fui aprendendo as principais linguagens, como Python, JavaScript, Java, C++, etc.</p>
+        
+        <h2>Formação Complementar</h2>
         <ul>
-            <li>Pacote office</li>
-            <li>conhecimento de sitemas operacionais para microcomputadores e para mobile (windows, macOS, Linux, Android e IOS)</li>
-            <li>java</li>
+            <li>Pacote Office</li>
+            <li>Conhecimento de sistemas operacionais para microcomputadores e para mobile (Windows, macOS, Linux, Android e iOS)</li>
+            <li>Java</li>
         </ul>
-
     </section>
-    <!-- Página "Meu Projeto" -->
+
+    <!-- Página "Meus Projetos" -->
     <section id="projetos">
         <header>
             <h1>Meus Projetos</h1>
@@ -51,14 +50,8 @@
         <ul>
             <li>
                 <h2>Alimentador automático</h2>
-                <p>O projeto é um alimentador automático. Este tem como função automatizar a alimentação de animais de médio e grande porte forma
-                    regrada. E um equipamento que dispõe de
-                    programação com balança, horários, avisos
-                    sonoros, além da fácil interpretação e locomoção.
-                    Ele visa a facilidade e a otimização do tempo que teríamos no dia a dia, e ainda, os benefícios aos animais, que poderiam desfrutar de uma dieta adequada. A automatização do processo de
-                    alimentação dos animais resolve tais obstáculos de forma eficiente e fácil.
-                    Objetivo</p>
-                <a href=https://drive.google.com/file/d/1IXCEL9YOiE_gNa1QBvSBLkmRvpV6bGdy/view?usp=drive_link>Saiba mais</a>
+                <p>O projeto é um alimentador automático. Este tem como função automatizar a alimentação de animais de médio e grande porte de forma regrada. É um equipamento que dispõe de programação com balança, horários, avisos sonoros, além da fácil interpretação e locomoção. Ele visa a facilidade e a otimização do tempo, além dos benefícios aos animais, que poderiam desfrutar de uma dieta adequada. A automatização do processo de alimentação dos animais resolve tais obstáculos de forma eficiente e fácil.</p>
+                <a href="https://drive.google.com/file/d/1IXCEL9YOiE_gNa1QBvSBLkmRvpV6bGdy/view?usp=drive_link">Saiba mais</a>
             </li>
         </ul>
     </section>
@@ -73,19 +66,13 @@
 
         <ul>
             <li><a href="https://www.linkedin.com/in/saymon-lima-5938492a8?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">LinkedIn</a></li>
-             <li><a href="https://www.instagram.com/l1maa_s?igsh=OWh1dmVwNHZ2bTV1&utm_source=qr">Instagram</a></li>
+            <li><a href="https://www.instagram.com/l1maa_s?igsh=OWh1dmVwNHZ2bTV1&utm_source=qr">Instagram</a></li>
         </ul>
 
-        <form action="#" method="post">
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome" required>
-
-            <label for="email">E-mail:</label>
-            <input type="email" id="email" name="email" required>
-
-            <label for="mensagem">Mensagem:</label>
-            <textarea id="mensagem" name="mensagem" required></textarea>
-
+        <form action="mailto:saymonlima2019@outlook.com" method="POST">
+            <label>Nome: <input type="text" name="nome" required></label>  
+            <label>Email: <input type="email" name="email" required></label>  
+            <label>Mensagem: <textarea name="mensagem" required></textarea></label>  
             <button type="submit">Enviar</button>
         </form>
     </section>
@@ -96,3 +83,221 @@
     </footer>
 </body>
 </html>
+
+<style>
+    /* Estilos Globais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header img {
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+/* Navegação */
+nav {
+    background-color: #444;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+    color: #ff6347;
+}
+
+/* Seções */
+section {
+    padding: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* Sobre Mim */
+#sobre {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#sobre h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+#sobre p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+#sobre h2 {
+    font-size: 1.8rem;
+    margin-top: 20px;
+}
+
+/* Projetos */
+#projetos h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#projetos ul {
+    list-style-type: none;
+}
+
+#projetos li {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#projetos li h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+#projetos a {
+    color: #ff6347;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#projetos a:hover {
+    text-decoration: underline;
+}
+
+/* Contato */
+#contato {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#contato h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#contato ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#contato li {
+    margin-bottom: 10px;
+}
+
+#contato li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.2rem;
+}
+
+#contato li a:hover {
+    color: #ff6347;
+}
+
+/* Formulário de Contato */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+form button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #ff6347;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    section {
+        padding: 20px;
+    }
+}
+
+</style>
